@@ -1,0 +1,27 @@
+What is a programming langauge?
+
+- Use of programming language is to develop software and communicate with technology.
+
+Features of Java:
+
+1. Platform independent - if a java file is compiled then it generates a class file which is of type class. The Java file can be used to generate the class file in any Operating System (OS). But for each operating system (OS) we will have ait's own JWM (Java virtual machine) which is used to execute the class file.
+
+2. Simple - Syntax is similar to C/C++ - Programmitically - removed pointers - Security
+
+3. Architecture Neutral - changing vars types doesn't change memory usage - the architecture is abstracted to a seperate layer
+
+Basics on java class:
+
+1. File name and class name doesn't have to be same, the can be differnt but class generated after compilation will have the same name as the given class name.
+2. If there are multiple classes in a file then multiple classes will be produced.
+3. In one file, at most one public class can exist. And At most one Main method can exist within one file.
+4. Code can compile without main method but cannot be excuted. Also, empty file can be compiled but will not generate any class file.
+
+What is a Class?
+
+- It is used to declare multiple datatypes to contain multiple types of values. Because there is no predefined datatyupe in java to contain multiple types of values.
+  class Employee{
+  int id;
+  String name;
+  float = age;
+  }
