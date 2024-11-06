@@ -1,0 +1,19 @@
+1. The variabl;es in a class are reserved when we create an object of the class (or instantiate an object of the class). Memory is reserved for variables in a class when object is created.
+
+2. Class is imaginary but it gets memory when an object of itself is instantiated. 
+
+3. If we want to allocate memory for a variable just once then we declare the variable as static. Static variables are executed before main method.
+
+4. Static blocks: If we want to execute something before main method only once then  we put that in a static block. 
+
+5. Order of execution in a class: Static variables -> static block -> main method
+
+6. Order of executing a java file: Java file is situated in class path and run by JVM. Class loads from hard disk to RAM and run by JVM then static area is created for static variables, static blocks. Then main mehtod is executed for which memory is allocated for non-static variables. 
+
+# Usages of Static blocks:
+1. Connecting program to Database once. 
+2. Loading email address to cache only once: the app is loaded to Database and the email is sent to the cache. 
+
+Homework:
+How can static block and static method be executed without executing the main method or the whole class?
+ - How to load class manually? how to execute static block without main.class?
