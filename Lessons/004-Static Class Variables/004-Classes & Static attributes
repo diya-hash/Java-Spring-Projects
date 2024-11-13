@@ -1,0 +1,28 @@
+# Static variable
+
+Lifetime: class load to unload
+Scope: Throughout the class
+
+- Shouldn't be called called by creating object unnecessarily. Statyic var is accessible by creating class name.
+
+# Non-Static
+
+Lifetime: Object creation to deletion
+Scope: Object level scope
+Gets memory when object is created. Always accessed through object
+
+# Method
+
+Group of related objects
+
+- Zero classification vs. Parameterized
+- Parameterized - How many parameters, kind of params, type of params
+- void vs non-void
+- Static vs. Non-static: Object creation required. Non-static directly call method.
+- If there is a void method, then return statement is used - sometimes, mandatory and sometimes not.
+
+# System.out.println
+
+- Class PrintStream contains the method - println(){}
+- System.out.println( null) - check in chatgpt
+- System.out.println(09) - error- find out

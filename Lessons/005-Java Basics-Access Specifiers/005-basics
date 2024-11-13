@@ -1,0 +1,28 @@
+# Ways to get return types values
+
+- When the dataype of the method is a non-void method.
+- void method doesn't require return.
+
+# Why Constructors are required?
+
+- They are required to create/instantiate objects.
+- Types of constructors depends on the number of parameters - zero parameters, 1 or more paramter.
+- Default constructor: Empty/zero paramater constructor. If a constructor is implemented then the default construcor won't be created. Default constructor created by JVM.
+- Non-default constructor: can have logic manually created.
+- Default constructor will have the same "Access-specifier" as the class "Access-specifier"
+- Class cannot be private.
+
+# Access-Specifier
+
+- Package: Folders containing classes according to use-case. Example: com.sbi.card, com.sbi.loan, etc.
+- When a variable is required/used just inside the class then declare it as private.
+- Importing package: telling where to find a class.
+- Default and Protected: Accessible within the package; Protected: accessible only within the class and outside the package is the class is a child class.
+- public variable: Accessible everywhere
+- Private: accessible through setters and getters
+
+# API
+
+- Transfer data between services over network
+- Web servoces are APIs.
+- All Web services are APIs but not all APIs are web services.

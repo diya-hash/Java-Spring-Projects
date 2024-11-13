@@ -1,0 +1,20 @@
+# Predefined Datatypes
+
+- Byte, Short, int, long, float, double, boolean.
+- intetger or number : Byte, short, int, long
+- decimal: float, double
+- Byte: 8 bit(-128 to 128),
+- short: -32768 to 32767
+- byte: 1
+- short: 2
+- int: 4
+- long: 8
+- fl: 4
+- double: 8
+- char: 2
+
+# Type Casting
+
+- Implicit typecasting - widening; Example:
+- Explicit typecasting - compressing Example:
+- In Java Unicode is followed
