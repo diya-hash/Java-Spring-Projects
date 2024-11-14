@@ -1,0 +1,32 @@
+# Data Hiding
+
+- Hiding data
+
+# Abstract
+
+- Hiding internal coding
+
+# Encapsulation
+
+- Combining variables and methods into a single unit
+
+# Inheritance
+
+- All properties are available to child but not constructors, provate variables/methods from the parent class
+- Cannot extend more than one class. Java doesn't supprt multiple inhertiance - cause of ambiguity.
+- IS-A: It is when the child class is extending the parent class to get aceess to their members.
+- HAS-A: It is when we create object of another class to access the other class's members
+- Object class is a default parent class to every class
+- Parent object cannot be stored in a child class/object. Example: Child c = new Parent(); Can only acess Parent class's members.
+
+# Constructor Chaining
+
+- super(): this is by default in every zero parameter constructor of the child class
+- this(): this is implemented explicitly and implicitly
+- Parent class must have public/default constructor for child class to create/access parent class members/properties
+
+# Overloading
+
+- When we have multiple method with different parameters but same method name
+- Required for increasing reliability
+- required for consistency/readability
