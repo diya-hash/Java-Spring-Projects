@@ -1,4 +1,4 @@
-package Assignments.firstAssignment.QuestionSeven;
+package Assignments.firstAssignment.questionSeven;
 
 import Assignments.firstAssignment.Employee;
 
