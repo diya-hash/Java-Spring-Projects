@@ -4,9 +4,8 @@ import Assignments.firstAssignment.Employee;
 
 public class Demo {
     public static void m1(Object o) {
-
-        System.out.println("Id: " + o.getId() + " Name: " + o.getName() + " Salary: " + o.getSal());
-
+        Employee e = (Employee) o;
+        System.out.println("Id: " + e.getId() + " Name: " + e.getName() + " Salary: " + e.getSal());
     }
 
     public static void main(String[] args) {

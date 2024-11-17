@@ -9,7 +9,7 @@ public class Demo {
     }
 
     public static void main(String[] args) {
-        Object obj = (Employee) m1();
+        Employee obj = (Employee) m1();
         System.out.println("ID: " + obj.getId());
         System.out.println("ID: " + obj.getName());
         System.out.println("salary: " + obj.getSal());
