@@ -1,4 +1,4 @@
-package Assignments.secondAssignment.question37;
+package Assignments.Strings.question37;
 
 public class Demo {
 

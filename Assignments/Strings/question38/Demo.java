@@ -1,4 +1,4 @@
-package Assignments.secondAssignment.question38;
+package Assignments.Strings.question38;
 
 public class Demo {
     public static void main(String[] args) {

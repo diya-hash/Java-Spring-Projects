@@ -1,4 +1,4 @@
-package Assignments.secondAssignment.question36;
+package Assignments.Strings.question36;
 
 public class Demo {
     static int total = 0;
