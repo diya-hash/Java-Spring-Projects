@@ -43,4 +43,21 @@ public class Employee {
     public String toString() {
         return getId() + "\t" + getName() + "\t" + getSal();
     }
+
+    public boolean equals(Object obj) {
+        Employee e2 = (Employee) obj;
+
+        if (this.getId() == e2.getId() && this.getName() == e2.getName() && this.getSal() == e2.getSal()) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    protected Object clone() throws CloneNotSupportedException {
+        Object obj = new Object();
+        Employee e = (Employee) obj;
+
+        return e;
+    }
 }
