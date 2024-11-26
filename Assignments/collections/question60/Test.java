@@ -1,4 +1,4 @@
-package Assignments.Arraylist.question60;
+package Assignments.collections.question60;
 
 import java.util.ArrayList;
 
