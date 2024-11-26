@@ -53,11 +53,4 @@ public class Employee {
             return false;
         }
     }
-
-    protected Object clone() throws CloneNotSupportedException {
-        Object obj = new Object();
-        Employee e = (Employee) obj;
-
-        return e;
-    }
 }
