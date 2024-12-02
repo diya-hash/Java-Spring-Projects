@@ -1,0 +1,21 @@
+Which version have you used in your java project?
+
+- Java 8
+
+Where did you Streasm API?
+
+- I have used Stream API to build features of Microservice Application. When we had to retrieve some data from the Database I used Java Stream API to get sata, to filter data, etc.
+
+What is the advantage of lambda function?
+
+- Conciseness:
+  Functiional interfaces can represented by lambda functions.
+
+- Readability:
+  By eliminating boilerplate code, the code becomes for readble and short. Making the code more expressive and easier to understand.
+
+- Flexibility:
+  Can create more adaptable code with Lambda functions. It can give behaviour to methods as a pramater by utilizing functional interfaces and lamda expressions. Thus, code is more modular/versatile and can be applied to various situations.
+
+-Parallelism:
+The idea of streams, a potent tool for working with collections, was introduced in Java 8. The simplicity with which streams can be parallelized is one of its benefits. We may make use of multi-core processors and boost the efficiency of our programmes by using lambda expressions to define the behaviour of a stream operation.

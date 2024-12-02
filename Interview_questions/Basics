@@ -1,0 +1,5 @@
+1. Difference Between == operator and equals method w.r.t String class?
+
+- The == operator compares the data itself.
+- The equals method compares the reference of the object.
+- The equals method is defined in the Object class which compares the the reference value of an object. This method can be overriden in to compare the data of an object instead.
