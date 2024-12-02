@@ -19,7 +19,7 @@ public class Demo {
 class myComp implements Comparator<Integer> {
     public int compare(Integer n, Integer o) {
         if (n < o)
-            return -1;
+            return 1;
         if (n > o)
             return -1;
         return 0;
