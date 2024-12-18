@@ -33,4 +33,24 @@
   	<servlet-name>DeleteServlet</servlet-name>
   	<url-pattern>/delete</url-pattern>
   </servlet-mapping>
+  
+ <servlet>
+  	<servlet-name>SelectServlet</servlet-name>
+  	<servlet-class>com.app.SelectServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>SelectServlet</servlet-name>
+  	<url-pattern>/read</url-pattern>
+  </servlet-mapping> 
+ 
+ <servlet>
+  	<servlet-name>SelectAllServlet</servlet-name>
+  	<servlet-class>com.app.SelectAllServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>SelectAllServlet</servlet-name>
+  	<url-pattern>/all-users</url-pattern>
+  </servlet-mapping> 
 </web-app>
