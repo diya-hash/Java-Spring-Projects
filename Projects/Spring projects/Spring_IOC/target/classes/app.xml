@@ -1,0 +1,79 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+<!-- this is to reduce the number of lines using property express -->
+<!-- 	<bean id="a" class="com.app.Address" p:city="Pune" p:state="MH"></bean>
+	
+	<bean id="e" class="com.app.Employee" p:id="1" p:name="Sameer" p:adr-ref="a"></bean> -->
+	
+	
+<!-- default scope of every bean is singleton, note that the scope can be changed of a bean making the scope to prototype-->
+<!-- 	<bean id="adr" class="com.app.Address">
+		<property name="city" value="Pune"/>
+		<property name="state" value="MH"/>
+		
+	</bean>
+	<bean id="e" class="com.app.Employee" scope="prototype">
+		<property name="id" value="1"/>
+		<property name="name" value="Sameer"/>
+		<property name="adr" ref="adr"/>
+	</bean>  -->
+	
+<!-- In autowire byType, we can have only one/unqie bean of that type
+	<bean id="adr" class="com.app.Address">
+		<property name="city" value="Pune"/>
+		<property name="state" value="MH"/>
+		
+	</bean>
+	<bean id="e" class="com.app.Employee" scope="prototype" autowire="byType">
+		<property name="id" value="1"/>
+		<property name="name" value="Sameer"/>
+		<property name="adr" ref="adr"/>
+	</bean>   -->
+<!-- 
+In autowire byName, we can have multiple beans of the same type but they vary by id, the id autowires via the byName
+	<bean id="adr" class="com.app.Address">
+		<property name="city" value="Pune"/>
+		<property name="state" value="MH"/>
+		
+	</bean>
+	<bean id="e" class="com.app.Employee" scope="prototype" autowire="byName">
+		<property name="id" value="1"/>
+		<property name="name" value="Sameer"/>
+		<property name="adr" ref="adr"/>
+	</bean>   -->
+	
+<!-- this is called inner bean or nested bean, where the bean the doesn't have an id and no other bean can use the address bean
+	<bean class="com.app.Address">
+		<property name="city" value="Pune"/>
+		<property name="state" value="MH"/>
+		
+	</bean>
+	<bean id="e" class="com.app.Employee" scope="prototype" autowire="byName">
+		<property name="id" value="1"/>
+		<property name="name" value="Sameer"/>
+		<property name="adr" >
+			
+			<bean class="com.app.Address">
+				<property name="city" value="Pune"/>
+				<property name="state" value="MH"/>
+				
+			</bean>
+		</property>
+	</bean>  --> 
+	
+	<bean id="adr" class="com.app.Address">
+	<constructor-arg value="Mumbai"/>
+	<constructor-arg value="MH"/>
+		
+	</bean>
+	<bean id="e" class="com.app.Employee" scope="prototype" autowire="byName">
+		<property name="id" value="1"/>
+		<property name="name" value="Sameer"/>
+		<property name="adr" ref="adr"/>
+	</bean>  
+
+</beans>
