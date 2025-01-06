@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
 	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
-<!-- this is to reduce the number of lines using property express -->
+<!-- this is to reduce the number of lines using property p-namespace -->
 <!-- 	<bean id="a" class="com.app.Address" p:city="Pune" p:state="MH"></bean>
 	
 	<bean id="e" class="com.app.Employee" p:id="1" p:name="Sameer" p:adr-ref="a"></bean> -->
